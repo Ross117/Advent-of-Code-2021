@@ -2,13 +2,13 @@ import numpy as np
 
 def calc_fuel(distance):
     i = 0
-    feul = 0
+    fuel = 0
     
     for num in range(distance):
         i += 1
-        feul += i
+        fuel += i
 
-    return feul
+    return fuel
 
 with open('C:/Users/rmorran001/Documents/Python Scripts/Advent of Code/2021/Input.txt', mode='r', encoding='utf-8') as file:
     input = file.read().split(',')
