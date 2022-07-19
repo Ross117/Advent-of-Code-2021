@@ -62,7 +62,7 @@ def count_overlaps():
     return counter
 
 
-with open('C:/Users/rmorran001/Documents/Python Scripts/Advent of Code/2021/Input.txt', mode='r', encoding='utf-8') as file:
+with open('Input.txt', mode='r', encoding='utf-8') as file:
     input = file.read().split('\n')
 
 input_cleaned = [create_2d_list(value) for value in input]
