@@ -10,7 +10,7 @@ def calc_fuel(distance):
 
     return fuel
 
-with open('C:/Users/rmorran001/Documents/Python Scripts/Advent of Code/2021/Input.txt', mode='r', encoding='utf-8') as file:
+with open('Input.txt', mode='r', encoding='utf-8') as file:
     input = file.read().split(',')
 
 input_cleaned = [int(value) for value in input]
