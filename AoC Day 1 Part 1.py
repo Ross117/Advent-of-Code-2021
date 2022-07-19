@@ -1,4 +1,4 @@
-with open('C:/Users/rmorran001/Documents/Python Scripts/Input.txt', mode='r', encoding='utf-8') as file:
+with open('Input.txt', mode='r', encoding='utf-8') as file:
     input = file.read().split('\n')
 
 numbers = [int(value) for value in input]
