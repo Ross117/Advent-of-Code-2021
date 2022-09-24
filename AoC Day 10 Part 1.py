@@ -1,5 +1,3 @@
-import functools
-
 with open('Input.txt', mode='r', encoding='utf-8') as file:
     input = file.read().split('\n')
 
